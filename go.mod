@@ -13,6 +13,8 @@ require (
 require github.com/spaolacci/murmur3 v1.1.0
 
 require (
+	github.com/google/uuid v1.3.0 // indirect
+	github.com/lithammer/shortuuid/v4 v4.0.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
 	go.uber.org/zap v1.21.0 // indirect

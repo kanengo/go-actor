@@ -1,7 +1,7 @@
 package actor
 
-func (pid *PID) isLocal(address string) bool {
-	if pid.Address != localAddress && pid.Address != address {
+func (x *PID) isLocal(address string) bool {
+	if x.Address != localAddress && x.Address != address {
 		return false
 	}
 
